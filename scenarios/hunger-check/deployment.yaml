@@ -46,15 +46,6 @@ data:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: webhookapikey2
-  namespace: big-monolith
-type: Opaque
-data:
-  k8swebhookapikey: thebestkeyWdvYXQtZGZjZjYzMDUzOTU1M2VjZjk1ODZmZGZkYTE5NjhmZWM=
----
-apiVersion: v1
-kind: Secret
-metadata:
   name: webhookapikey
   namespace: big-monolith
 type: Opaque
