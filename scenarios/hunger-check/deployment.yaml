@@ -50,7 +50,7 @@ metadata:
   namespace: big-monolith
 type: Opaque
 data:
-  k8swebhookapikey: another-key
+  k8swebhookapikey: bbbbLWdvYXQtZGZjZjYzMDUzOTU1M2VjZjk1ODZmZGZkYTE5NjhmZWM=
 ---
 apiVersion: apps/v1
 kind: Deployment
