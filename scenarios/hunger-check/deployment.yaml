@@ -41,7 +41,7 @@ metadata:
   namespace: big-monolith
 type: Opaque
 data:
-  k8svaultapikey: azhzLWdvYXQtODUwNTc4NDZhODA0NmEyNWIzNWYzOGYzYTI2NDlkY2U=
+  k8svaultapikey: another-key
 ---
 apiVersion: v1
 kind: Secret
@@ -50,7 +50,7 @@ metadata:
   namespace: big-monolith
 type: Opaque
 data:
-  k8swebhookapikey: azhzLWdvYXQtZGZjZjYzMDUzOTU1M2VjZjk1ODZmZGZkYTE5NjhmZWM=
+  k8swebhookapikey: another-key
 ---
 apiVersion: apps/v1
 kind: Deployment
